@@ -12,7 +12,6 @@ const STATUS = {
   CANCELLED: 2,
 };
 export default function App() {
-  console.log("FUCK YEAH!!");
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
